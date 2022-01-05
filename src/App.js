@@ -1,11 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import  Productos from  './Components/Paginas/Paginas.htlm';
+import "./App.css";
+import Body from "./Body";
+
+import FooterPie from "./FooterPie";
+
 function App() {
   return (
-    <h1 className= "text-3xl font-3xl font-bold underline">
-     Hello World 
-    </h1>
+    <div>
+      <FooterPie />
+      <Body />
+      <Body />
+      <Body />
+      <Body />
+      <Body />
+    </div>
   );
 }
 
